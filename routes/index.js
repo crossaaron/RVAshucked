@@ -7,8 +7,8 @@ const saltRounds = 10;
 
 /* GET home page. */
 router.get('/', function(req, res) {
-    console.log(req.user);
-    console.log(req.isAuthenticated());
+    // console.log(req.user);
+    // console.log(req.isAuthenticated());
     res.render('home', { title: 'Home' });
 });
 
