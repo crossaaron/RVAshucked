@@ -1,24 +1,8 @@
 {
-  "name": "buzzed",
+  "name": "rvashucked",
   "version": "1.0.0",
-  "description": "interactive beer tracking app",
-  "scripts": {
-    "start": "node ./bin/www",
-    "build": "webpack --config webpack.config.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/crossaaron/Buzzed.git"
-  },
-  "keywords": [
-    "beer"
-  ],
-  "author": "Sean Wright, Zach Carter, Aaron Cross",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/crossaaron/Buzzed/issues"
-  },
-  "homepage": "https://github.com/crossaaron/Buzzed#readme",
+  "description": "oyster shell recycling program tracker for Richmond, VA",
+  "main": "app.js",
   "dependencies": {
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
@@ -58,5 +42,18 @@
     "style-loader": "^0.13.1",
     "webpack": "^2.2.0",
     "webpack-dotenv-plugin": "^2.0.0"
-  }
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossaaron/RVAshucked.git"
+  },
+  "author": "Zach Carter, Sean Wright, Aaron Cross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crossaaron/RVAshucked/issues"
+  },
+  "homepage": "https://github.com/crossaaron/RVAshucked#readme"
 }
