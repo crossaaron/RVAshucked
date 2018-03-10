@@ -1,0 +1,54 @@
+{{> header}}
+
+
+    <div class="container availability">
+        <h1 id="content-title">Where can I enjoy VA Oysters?</h1>
+        <h2 id="content-subtitle"> Select which oyster you are craving and we'll show you available restaurants in Richmond</h2>
+        <div class="row availableRow">
+            <div class="col-12">
+                  <div id="mySidenav" class="sidenav">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <div class="sideNavItems">
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=1 >Lynnhaven</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=2 >Ruby Salts</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=3 >Morattico</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=4 >Seaside Salts</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=5 >Tangier</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=6 >McKinney's Island</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=7 >Rochambeu</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=8 >Rappahannock River</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=9 >Olde Salts</a>
+                        <a onclick="closeNav()" class="sideNavItem" href="#" data-id=10 >Anderson's Neck</a>
+                    </div>
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Select an Oyster</span>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    {{> footer}}
+        
+        
+        
+    <!-- Jquery and Bootstrap JS -->
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPo8UiSRXpn9imT0qMKVnB1LO6u6M4WOk&libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+
