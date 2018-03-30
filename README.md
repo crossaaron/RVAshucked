@@ -1,8 +1,11 @@
-# Buzzed or ShellShock
+# RVA SHUCKED
 
-Intereactive Application designed with keeping track of your favorite Virgina Oysters
+Intereactive Application designed with keeping track of your favorite oysters and how they make it back to the bay with the Virginia Oyster Shell Recycling Program
 
-##Basic Framework
+## Link
+https://quiet-hollows-94226.herokuapp.com/
+
+## Basic Wireframes to guide Project
 
 ### Landing Page / Site Navigation
 ![alt text](/public/assets/img/home.png)
